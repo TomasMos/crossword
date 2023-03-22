@@ -1,6 +1,6 @@
 # Crossword
 
-## This crossword generator was developed as part of my CS50AI course from Harvard. The generator takes two inputs, a structures.txt file which defines the shape of the intended crossword, and a words.txt file which contains a list of available words to be added to the crossword. This is an optimization problem which requires enforcing node consistency, arc consistency and backtracking. 
+## This is an optimization problem which requires enforcing node consistency, arc consistency and backtracking. The generator takes two inputs, a structures.txt file which defines the shape of the intended crossword, and a words.txt file which contains a list of available words to be added to the crossword. 
 
 ### Node consistency is implemented by ensuring that the unary constraints are met for each required word. Ie, if the crossword requires a word of 5 letters, then only words of 5 letters in length are left in the domain of possible choices for that particular crossword section. Please refer to example 1 below, the domain for 'infer' would only contain words of 5 letters, and the domain for 'intelligence' would only contain words of 12 letters, and so on. 
 
